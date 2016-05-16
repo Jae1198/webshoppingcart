@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Mp3 Shark</title>
+<link rel="icon" href="img/music_note.jpg">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/cart.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+</head>
+<header>
+
+</header>
+
+<div class="container">
+        <!-- begin cart link widget -->
+<div id="cart_links">
+    <a href="cart.html"><img class="cart_icon" src="img/cart_icon.png" alt="cart icon" /></a>
+    <span class="cart_link"><a id="cart_link" href="#">Shopping Cart</a></span> <br />
+    <span class="item_count">Items (<span id="item_count">0</span>)</span>
+    <span class="checkout_link"><a id="checkout_link" href="#">Checkout</a></span>
+
+</div>
+
+<body onload="loadCart()">
+<div class="container">
+<h1><a href="index.html">MP3 Shark</a></h1>
+
+
+<!--<div class="row">
+<div class="full">
+<p>Owl Carousel</p>
+<img src="img/test/carousel.jpg">
+</div>
+</div>-->
+<div class="row">
+<div class="full">
+<p></p>
+<p>Hero by Skillet</p><input type="button" onclick="addToCart('hero')" value="Add to cart"><audio controls>
+<source src="audio/Hero.mp3" type="audio/mpeg">    
+</audio>
+
+<p>Monster by Skillet</p><input type="button" onclick="addToCart('monster')" value="Add to cart"><audio controls>
+<source src="audio/Monster.mp3" type="audio/mpeg">    
+</audio>
+
+<p>Whispers In The Dark by Skillet</p><input type="button" onclick="addToCart('whispers_in_the_dark')" value="Add to cart"><audio controls>
+<source src="audio/WhispersInTheDark.mp3" type="audio/mpeg">    
+</audio>
+
+<p>Animal I Have Become by Three Days Grace</p><input type="button" onclick="addToCart('animal_i_have_become')" value="Add to cart">
+<audio controls>
+<source src="audio/AnimalIHaveBecome.mp3" type="audio/mpeg">    
+</audio>
+
+<p>I Am Machine by Three Days Grace</p><input type="button" onclick="addToCart('i_am_machine')" value="Add to cart"><audio controls>
+<source src="audio/IAmMachine.mp3" type="audio/mpeg">    
+</audio>
+
+<p>Human by Manafest</p><input type="button" onclick="addToCart('human')" value="Add to cart"><audio controls>
+<source src="audio/Human.mp3" type="audio/mpeg">    
+</audio>
+
+<p>No Plan B by Manafest</p><input type="button" onclick="addToCart('no_plan_b')" value="Add to cart"><audio controls>
+<source src="audio/NoPlanB.mp3" type="audio/mpeg">    
+</audio>
+
+<p>All Around Me by Flyleaf</p><input type="button" onclick="addToCart('all_around_me')" value="Add to cart"><audio controls>
+<source src="audio/AllAroundMe.mp3" type="audio/mpeg">    
+</audio>
+
+
+
+</div>
+</div>
+
+<div class="row">
+    
+<div class="one-third">
+<a href="alternative.html"><p>White Metal/Alternative Rock</p></a>
+<a href="alternative.html"><img src="img/Alternative.jpg"></a>
+</div>
+
+<div class="one-third">
+<a href="metalcore.html"><p>Metalcore</p></a>
+<a href="metalcore.html"><img src="img/MetalCore.jpg"></a>
+</div>   
+
+<div class="one-third">
+<a href="metal.html"><p>Metal</p></a>
+<a href="metal.html"><img src="img/HeavyMetal.jpg"></a>
+</div>
+
+</div>
+
+
+
+
+<div class="row">
+<div class="one-half">
+<p>Mailing List</p>
+<a href="#">Subscribe</a>
+</div>
+
+<div class="one-half">
+<p>List of Band Websites</p>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+</div>
+</div>
+
+
+
+
+<div class="row">
+
+<div class="one-half">
+<p>Contact Info</p>
+<a href="#">Contact Us</a>
+</div>
+
+<div class="one-half">
+<p>Shipping Info</p>
+<a href="cart.html">Checkout</a>
+</div>
+
+</div>
+
+
+</div>
+<footer></footer>
+<!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+</html>

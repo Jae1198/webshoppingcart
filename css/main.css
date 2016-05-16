@@ -1,0 +1,132 @@
+/*** sectioning elements ***/
+
+body {
+    background-color: #AA0000;
+
+}
+
+header {
+
+}
+
+main {
+    /* I wouldn't recommend applying any styles to this
+       section as the 'main' element is not supported
+       in all browsers yet. */
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** base styles ***/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+	
+}
+
+
+/*** link styles ***/
+
+a:link {
+    color:#FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+
+}
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    color: #173814;
+}
+
+a:active {
+
+}
+
+
+/*** form styles (coming soon) ***/
+div.container{
+    background-color: #999999;
+    color: #FFFFFF;
+}
